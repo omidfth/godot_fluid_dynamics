@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://byw2773mdvbh8"]
+
+[ext_resource type="Script" path="res://FluidView.cs" id="1_a13fw"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.760406, -0.232741, 0.606312, 0, 0.93358, 0.358368, -0.649448, -0.272505, 0.7099, 19.13, 20.01, 27.725)
+
+[node name="Node3D" type="Node3D" parent="."]
+script = ExtResource("1_a13fw")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
